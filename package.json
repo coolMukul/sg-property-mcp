@@ -1,10 +1,11 @@
 {
   "name": "sg-property-mcp",
   "version": "0.1.0",
-  "description": "Singapore property prices, land use, and neighborhood amenities via MCP — no API keys needed.",
-  "type": "module",
-  "bin": {
-    "sg-property-mcp": "./dist/index.js"
+  "description": "A Model Context Protocol (MCP) server providing comprehensive access to Singapore property prices, HDB data, land use zoning, and neighborhood amenities.",
+  "homepage": "https://github.com/coolMukul/sg-property-mcp#readme",
+  "author": {
+    "name": "Mukul Varshney",
+    "email": "mukulvarshney@outlook.com"
   },
   "scripts": {
     "build": "tsc",
@@ -15,14 +16,15 @@
   },
   "keywords": [
     "mcp",
+    "mcp-server",
     "model-context-protocol",
     "singapore",
-    "property",
+    "property-prices",
     "hdb",
     "real-estate",
+    "ura",
     "land-use",
-    "zoning",
-    "amenities"
+    "zoning"
   ],
   "author": "Mukul Varshney <mukulvarshney@outlook.com>",
   "license": "MIT",

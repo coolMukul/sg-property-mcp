@@ -1,4 +1,4 @@
-# sg-property-mcp [![sg-property-mcp MCP server](https://glama.ai/mcp/servers/coolMukul/sg-property-mcp/badges/card.svg)](https://glama.ai/mcp/servers/coolMukul/sg-property-mcp)
+# sg-property-mcp
 
 **Singapore property prices, land use, and neighborhood amenities via MCP — no API keys needed.**
 

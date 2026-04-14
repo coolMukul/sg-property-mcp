@@ -1,0 +1,51 @@
+{
+  "name": "sg-property-mcp",
+  "version": "0.1.0",
+  "description": "Singapore property prices, land use, and neighborhood amenities via MCP — no API keys needed.",
+  "type": "module",
+  "bin": {
+    "sg-property-mcp": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx watch src/index.ts",
+    "start": "node dist/index.js",
+    "typecheck": "tsc --noEmit",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "singapore",
+    "property",
+    "hdb",
+    "real-estate",
+    "land-use",
+    "zoning",
+    "amenities"
+  ],
+  "author": "Mukul Varshney <mukulvarshney@outlook.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coolMukul/sg-property-mcp.git"
+  },
+  "files": [
+    "dist/**/*.js",
+    "dist/**/*.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=20.6.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.29.0",
+    "zod": "^3.25.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}
